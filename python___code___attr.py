@@ -8,7 +8,9 @@ def byte_cookinator(name):
 
 
 def inspect_function(func):
+    #print(dir(func.__code__))
     print(func.__code__.co_code)
+    print(func.__Code__.co_argcount)
     print(func.__code__.co_consts)
     print(func.__code__.co_stacksize)
     print(func.__code__.co_varnames)
