@@ -2,9 +2,9 @@
 
 words = ["Hello", "Orange", "Paper", "Titan", "PANDA", "Bionic Borderline Bouncy Rabbit"]
 
-def upper(word):
+def lower(word):
 	return word.lower()
 
-words = map(upper, words)
+words = map(lower, words)
 
 print(words)
